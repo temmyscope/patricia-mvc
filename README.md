@@ -10,8 +10,6 @@
 
 ***All other requirements will be installed/updated after ```composer update``` is run***
 
-***The environment variables are intentionally left exposed***
-
 - Create a PHP MVC Framework that has support for routing. 
 - Use the router to create API endpoints that will allow users do the following:
 - Login, Logout, Register
