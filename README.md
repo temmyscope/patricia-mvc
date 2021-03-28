@@ -3,11 +3,14 @@
 ***This project requires PHP 7.4***
 
 ```json
-"require": { "php": ">=7.4.0" },
+"require": { 
+    "php": ">=7.4.0"
+}
 ```
 
 ***All other requirements will be installed/updated after ```composer update``` is run***
 
+***The environment variables are intentionally left exposed***
 
 - Create a PHP MVC Framework that has support for routing. 
 - Use the router to create API endpoints that will allow users do the following:
@@ -42,6 +45,9 @@
 
 ### Router && Route
 
+- The Router used in this framework is from 
+***sevens/router library: which was developed by Elisha Temiloluwa OYAWALE(me)***
+
 ```php
 
 - $router->post('login', user login Callable); 
@@ -62,3 +68,5 @@
 ### Unit Testing
 
 - Unit Testing the framework can be done using PHPUnit library which has been "dev-required" on this project
+
+***phpdocumentor can also be used to generate documentation for the code***

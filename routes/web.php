@@ -5,7 +5,7 @@ use App\Auth;
 
 $router->get('/', function($request, $response){
 	return $response->send(
-		"Welcome to Patricia-MVC API: \n Endpoints are /login, /register & /logout", 
+		"Welcome to Patricia-MVC API: Endpoints are /login, /register & /logout", 
 	200);
 });
 

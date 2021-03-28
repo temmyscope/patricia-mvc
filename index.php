@@ -29,7 +29,6 @@ $request = $app->request(); $response = $app->response();
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
-$dotenv->required(['DB_HOST', 'DB_NAME', 'DB_USER', 'DB_PASS', 'DB_DRIVER']);
 
 /*
 |
@@ -43,8 +42,6 @@ $router = new Router(
     'App\Http\Controllers', $request, $response
 );
 
-//$router->enableCache(__DIR__.'/cache');
-
 $router->registerProviders($request, $response);
 
 
@@ -57,6 +54,7 @@ $router->middleware('api-auth', function ($request, $response, $next){
     $request->user = $user->user; 
     $request->email = $user->email;
     $next($request, $response);
+
 });
 
 
