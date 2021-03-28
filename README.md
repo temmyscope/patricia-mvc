@@ -61,4 +61,4 @@
 
 ### Unit Testing
 
-- Unit Testing the library can be done using PHPUnit library which "dev-required" on this project
+- Unit Testing the framework can be done using PHPUnit library which has been "dev-required" on this project

@@ -1,6 +1,6 @@
 {
     "name": "patricia-mvc/api",
-    "description": "High Speed Php Framework For Code Engineers",
+    "description": "Php Framework",
     "type": "project",
     "version": "v0.9.9",
     "minimum-stability": "dev",
@@ -32,14 +32,9 @@
     "authors": [
         {
             "name": "Elisha Temiloluwa a.k.a TemmyScope",
-            "email": "temmyscope@protonmail.com",
+            "email": "elishatemiloluwa@gmail.com",
             "role": "Developer"
         }
     ],
-    "scripts": {
-        "post-create-project-cmd": [
-            "@php Engineer app::start"
-        ]
-    },
-    "keywords": [ "SevenPHP", "API", "framework", "engineer" ]
+    "keywords": [ "PatriciaMVC", "API", "framework" ]
 }
